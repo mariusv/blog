@@ -1,9 +1,9 @@
 /*
 	Description: Grid 900px Master Stylesheet
 	Media: Screen
-	Version: Sun 4th May 2008
-	Author: Rodrigo Galindez
-	Author URI: http://www.rodrigogalindez.com
+	Version: Sun 4th Jul 2010
+	Author: Marius Voila
+	Author URI: http://www.mariusv.com
 */
 
 .col {
@@ -27,7 +27,7 @@
 	width: 14em;
 }
 
-/* La ultima columana se tiene que nudgear 1 gutter menos (1.2 em menos) */
+
 
 .span-3 {
 	width: 21.6em;

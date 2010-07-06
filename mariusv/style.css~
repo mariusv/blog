@@ -760,4 +760,3 @@ div.aligncenter {
 #wp-calendar tr {
 	padding: 1em;
 }
-small { font-weight: bold; }
