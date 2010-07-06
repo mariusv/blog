@@ -25,7 +25,7 @@
 			
 			<div class="post-content span-8 nudge-2">
 				<h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-				<div><p><strong>Posted:</strong> <?php the_time('F j, Y'); ?> | <strong>By</strong> <a href="mailto:marius.voila@gmail.com">MV</a> | In <?php the_category(', '); ?> | <?php comments_number('No comments yet','One comment','% comments'); ?> | <?php edit_post_link('Edit this post', '<li>', '</li>'); ?></div>
+				<div><p><strong>Posted:</strong> <?php the_time('F j, Y'); ?> | <strong>By:</strong> <a href="mailto:marius.voila@gmail.com">MV</a> | In <?php the_category(', '); ?> | <?php comments_number('No comments yet','One comment','% comments'); ?> | <?php edit_post_link('Edit this post', '<li>', '</li>'); ?></div>
 				<?php the_content('Continue reading...'); ?>
 			</div>
 		</div>
